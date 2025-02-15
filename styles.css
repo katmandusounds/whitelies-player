@@ -24,6 +24,12 @@ header, footer {
 .logo {
     height: 50px;
     object-fit: contain;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}
+
+.logo:hover {
+    opacity: 0.8;
 }
 
 main {
